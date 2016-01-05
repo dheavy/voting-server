@@ -2,7 +2,7 @@ import {expect} from 'chai';
 import {List} from 'immutable';
 
 describe('Immutability', () => {
-  describe('A number', () => {
+  describe('a number', () => {
     function increment(currentState) {
       return currentState + 1;
     }
@@ -16,7 +16,7 @@ describe('Immutability', () => {
     });
   });
 
-  describe('A List', () => {
+  describe('a List', () => {
     function addMovie(currentState, movie) {
       return currentState.push(movie);
     }
